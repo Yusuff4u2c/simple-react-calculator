@@ -48,7 +48,7 @@ function App() {
   ];
 
   return (
-    <div className="">
+    <main role="main" className="">
       <div className="calculator overflow-x-hidden h-auto my-10 bg-black max-w-sm mx-auto rounded-xl">
         <div className="display flex flex-col items-end p-6 my-2 text-xl border-b-2 border-gray-900 text-white">
           <div className="input h-6 border-2 overflow-hidden border-gray-500 p-4 flex justify-end items-center rounded-md w-full">
@@ -77,7 +77,7 @@ function App() {
           ))}
         </div>
       </div>
-    </div>
+    </main>
   );
 }
 
